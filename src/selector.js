@@ -11,9 +11,9 @@ const selector = (obj, path) => {
             tempObject = '';
         }
 
-        return tempObject;
-
     });
+
+    return tempObject;
 
 }
 

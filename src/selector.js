@@ -5,8 +5,7 @@ const selector = (obj, path) => {
     path.forEach(function(key) {
 
         if(tempObject[key]){
-            tempObject = tempObject[key];
-             
+            tempObject = tempObject[key];  
         } else {
             tempObject = '';
         }
